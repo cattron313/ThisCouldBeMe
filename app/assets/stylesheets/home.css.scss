@@ -1,0 +1,84 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+ @import url(http://fonts.googleapis.com/css?family=Varela);
+
+
+// LANDING PAGE
+
+.section_one{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  padding-top: 150px;
+  background-image: url("bck.jpg");
+  background-position:cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title{
+  text-align: left;
+  margin-left: 50px;
+}
+
+.section_one h1{
+  font-style:'Varela', sans-serif;
+  color: #c0392b;
+  font-size: 60px;
+}
+
+.section_one a{
+  color: white;
+  font-style:'Varela', sans-serif;
+  font-size: 30px;
+}
+
+.section_two{
+  position: relative;
+  height: 750px;
+  width: 100%;
+  margin-top: 600px;
+  padding-top: 80px;
+  background-color: rgb(65, 63, 66);
+  text-align: center;
+}
+
+  .section_two h1{
+    color:  #c0392b;
+    font-style:'Varela', sans-serif;
+  }
+
+.thumbnail{
+  margin-top: 20px;
+  background-color: rgba(236, 240, 241,1.0);
+  border-radius: 5px;
+}
+
+
+.profile_image{
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+
+.profile_image_div{
+  float: left;
+  padding-top: 50px;
+}
+
+.profile_description{
+  float: right;
+  text-align: right;
+  width: 400px
+}
+
+button{
+  background-color:black;
+  border-radius: 20px;
+}
+
+button:hover{
+  background-color: #c0392b;
+}
