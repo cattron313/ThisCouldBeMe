@@ -12,10 +12,11 @@
 </head>
 
 <body>
+<div class="fixed">
 <nav class="top-bar" data-topbar>
   <ul class="title-area">
     <li class="name">
-      <h1><a href="#">#ThisCouldBeMe</a></h1>
+      <h1><a href="/">#ThisCouldBeMe</a></h1>
     </li>
     <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
   </ul>
@@ -28,7 +29,12 @@
 
   </section>
 </nav>
+</div>
   <%= yield %>
   <%= javascript_include_tag "application" %>
+   <script type="text/javascript" src="skrollr.min.js"></script>
+    <script type="text/javascript">
+    var s = skrollr.init();
+    </script>
 </body>
 </html>
