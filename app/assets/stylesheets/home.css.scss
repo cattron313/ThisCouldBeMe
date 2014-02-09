@@ -1,0 +1,116 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+ @import url(http://fonts.googleapis.com/css?family=Varela);
+
+
+// LANDING PAGE
+
+.section_one{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  padding-top: 150px;
+  background-image: url("bck.jpg");
+  background-position:cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section_one h1{
+  font-style:'Varela', sans-serif;
+  color: #c0392b;
+  font-size: 60px;
+}
+
+
+.info h2{
+  font-style:'Varela', sans-serif;
+  font-size: 30px;
+}
+
+
+
+.section_one a{
+  color: white;
+  font-style:'Varela', sans-serif;
+  font-size: 30px;
+}
+
+.section_two{
+  position: relative;
+  height: 700px;
+  width: 100%;
+  margin-top: 650px;
+  padding-top: 80px;
+  background-color: rgb(245, 245, 245);
+  text-align: center;
+}
+
+  .section_two h1{
+    color:  #c0392b;
+    font-style:'Varela', sans-serif;
+  }
+
+.thumbnail{
+  margin-top: 20px;
+  background-color: rgb(206, 206, 206);
+  border-radius: 5px;
+}
+
+.header{
+  font-style:'Varela', sans-serif;
+}
+
+.profile_image{
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+
+.profile_image_div{
+  float: right;
+  padding-top: 20px;
+}
+
+.profile_description{
+  float: left;
+  text-align: left;
+  width: 400px
+}
+
+button{
+  background-color:black;
+  border-radius: 20px;
+}
+
+button:hover{
+  background-color: #c0392b;
+}
+
+
+//QUIZ
+.quiz_container{
+  background-image: url("bck.jpg");
+  background-position:cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+.orbit-container{
+  margin-top: 150px;
+}
+
+.orbit-container .orbit-slides-container > * {
+  background-color: rgba(192, 57, 43, 0.4);
+  padding: 30px;
+  height: 300px;
+}
+
+label{
+  font-size: 20px;
+}
+
