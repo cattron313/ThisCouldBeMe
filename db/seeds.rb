@@ -16,7 +16,7 @@ laquitta = Mentor.create({
   video_url: '',
   image_url: 'http://imgur.com/TlOTAV6'})
 
-laquitta.events = Event.create([
+laquitta.events.create([
 
   {
     date: Date.new(2014, 1, 1),
@@ -55,7 +55,7 @@ van = Mentor.create({
   video_url: '',
   image_url: 'http://imgur.com/8hE9wJt' })
 
-van.events = Event.create([
+van.events.create([
 
   {
     date: Date.new(2014, 1, 1),
@@ -95,7 +95,7 @@ khalima = Mentor.create({
   image_url: ''
   })
 
-khalima.events = Event.create([
+khalima.events.create([
   {
     date: Date.new(2014, 1, 1),
     description: 'I grew up in a group home in Brooklyn New York. I grew up around hundreds of kids, thousands of kids and I have seen every condition that a young person can be in. The one thing that I remember from my group home experience was that if a young person doesn’t have a hope or dream to hold on to then there are a lot of distractions and challenges that they would invite into their lives. No obstacle and challenge can actually control you destiny unless you invite it in and so for a lot of them, if they don’t have that dream or that purpose there is nothing to stop that challenge or obstacle from controlling their mind or destiny and their purpose.The other is a tragedy that happened in my life which was that my 18 year old brother when he aged out of the group home system, he was shot and killed behind our old elementary school. My brothers death that actually allowed me to make a decision and take up a personal mission to transform children’s lives.',
