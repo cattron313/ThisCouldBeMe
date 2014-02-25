@@ -144,23 +144,25 @@ button:hover{
   height: 100%;
   width: 100%;
   position: fixed;
-}
-.orbit-container{
-  margin-top: 150px;
+  overflow: scroll;
 }
 
-.orbit-container .orbit-slides-container > * {
-  background-color: rgba(192, 57, 43, 0.4);
-  padding: 30px;
-  height: 300px;
-}
 
 label{
   font-size: 20px;
+  font-family: 'Oswald', sans-serif;
 }
 
-.share{
-  text-align: center;
-  padding-top: 40px;
+
+.dark{
+  background-color: rgba(245, 245, 245, 0.8);
+}
+
+.light{
+  background-color: rgba(245, 245, 245, 0.4)
+}
+
+.results{
+  bottom: 70px;
 }
 

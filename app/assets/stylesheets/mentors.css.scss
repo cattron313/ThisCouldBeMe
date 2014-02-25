@@ -37,6 +37,11 @@
   position: relative;
 }
 
+.share{
+  text-align: center;
+  padding-top: 40px;
+}
+
 .top{
   top: -100px;
 }
@@ -47,4 +52,19 @@
 
 .timeline_section{
   margin-top: 30px;
+}
+
+.top_legend{
+  top: 100px;
+  width: 100%;
+  position: absolute;
+  -webkit-filter: blur(1px);
+  -moz-filter: blur(1px);
+  -ms-filter: blur(1px);
+  -o-filter: blur(1px);
+  filter: blur(1px);
+}
+
+.top_legend h1{
+  color: white;
 }
