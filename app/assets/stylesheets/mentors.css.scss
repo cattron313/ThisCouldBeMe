@@ -1,0 +1,43 @@
+// Place all the styles related to the mentors controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+//PROFILE PAGE
+
+
+.profile_gi{
+  height: 300px;
+  width: 100%;
+  text-align: center;
+}
+
+.background_image{
+  height: 300px;
+  width: 100%;
+  background-image: url("van.png");
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.single_profile_image{
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  border: rgba(160, 161, 162, 0.4) solid 20px;
+}
+
+.timeline_section{
+  height: 800px;
+  width: 100%;
+  margin-top: 50px;
+  position: relative;
+}
+.top{
+  top: -100px;
+  height: 100px;
+}
+
+.general_information{
+  text-align: center;
+}

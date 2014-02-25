@@ -1,0 +1,139 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+ @import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
+
+
+// LANDING PAGE
+
+p, a{
+  font-family: 'Oswald', sans-serif;
+}
+
+h1, h2, h4{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+}
+
+.section_one{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  padding-top: 150px;
+  background-image: url("bck.jpg");
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section_one h1{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  color: #c0392b;
+  font-size: 60px;
+}
+
+
+.info h2{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+
+
+.section_one a{
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+}
+
+.section_two{
+  position: relative;
+  height: auto;
+  width: 100%;
+  margin-top: 650px;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  background-color: rgb(245, 245, 245);
+  text-align: center;
+}
+
+  .section_two h1{
+    color:  #c0392b;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+  }
+
+.thumbnail{
+  margin-top: 20px;
+  background-color: rgb(206, 206, 206);
+  border-radius: 5px;
+}
+
+.header{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+}
+
+.profile_image{
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+
+.profile_image_div{
+  float: right;
+  padding-top: 20px;
+}
+
+.profile_description{
+  float: left;
+  text-align: left;
+  width: 400px
+}
+
+button{
+  background-color:black;
+  border-radius: 20px;
+}
+
+button:hover{
+  background-color: #c0392b;
+}
+
+#myModal{
+  text-align: center;
+}
+
+
+//QUIZ
+.quiz_container{
+  background-image: url("bck.jpg");
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+.orbit-container{
+  margin-top: 150px;
+}
+
+.orbit-container .orbit-slides-container > * {
+  background-color: rgba(192, 57, 43, 0.4);
+  padding: 30px;
+  height: 300px;
+}
+
+label{
+  font-size: 20px;
+}
+
+.share{
+  text-align: center;
+  padding-top: 40px;
+}
+

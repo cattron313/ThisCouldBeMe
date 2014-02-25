@@ -1,0 +1,26 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require timeline
+ *= require foundation_and_overrides
+ *= require foundation
+ *= require_tree .
+  *= require_self
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
+
+.top-bar{
+  background-color: #c0392b;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button){
+  background-color: #c0392b;
+}
