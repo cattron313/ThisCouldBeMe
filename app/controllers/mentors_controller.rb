@@ -4,7 +4,7 @@ class MentorsController < ApplicationController
   end
 
   def show
-    @mentor = Mentor.find(11)
+    @mentor = Mentor.find(2)
     render 'show'
   end
 
